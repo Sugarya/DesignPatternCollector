@@ -10,7 +10,7 @@ public class LoadingClient {
 
 
     public static void main(String[] args) {
-        testVersion3_2();
+        testVersion3_1();
     }
 
 
@@ -26,7 +26,6 @@ public class LoadingClient {
      */
     private static void testVersion1_2() {
         SubClass subClass = new SubClass();
-//        subClass.instanceTest();
     }
 
     /**
@@ -51,7 +50,7 @@ public class LoadingClient {
     }
 
     private static void testVersion3_1() {
-        boolean isAssignable = SuperClass.class.isAssignableFrom(SubClass.class);
+        boolean isAssignable = SuperClass.class.isAssignableFrom(SuperClass.class);
         Out.println("isAssignable = " + isAssignable);
     }
 

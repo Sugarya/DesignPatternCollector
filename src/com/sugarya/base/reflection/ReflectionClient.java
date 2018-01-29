@@ -1,5 +1,7 @@
 package com.sugarya.base.reflection;
 
+import com.sugarya.utils.Out;
+
 import java.lang.reflect.*;
 
 /**
@@ -16,13 +18,13 @@ public class ReflectionClient {
 
 //        testClass("com.sugarya.base.reflection.Man");
 //        testParticularField(Man.class, "clothes");
-//        testFields(Man.class);
+        testFields(Man.class);
 //        testFieldAssignment(Man.class);
 //        testDeclaredFields(Man.class);
 //          testMethod(Man.class, 22);
 //        testMethods(Man.class);
 //        testDeclaredMethods(Man.class);
-        testStaticMethod(Man.class);
+//        testStaticMethod(Man.class);
     }
 
 
@@ -38,7 +40,6 @@ public class ReflectionClient {
             for(Method m : methods){
                 int modifiers = m.getModifiers();
                 String s = Modifier.toString(modifiers);
-
                 String name = m.getName();
                 Class<?> returnType = m.getReturnType();
                 Class<?>[] parameterTypes = m.getParameterTypes();
@@ -102,7 +103,7 @@ public class ReflectionClient {
     private static void testMethod(Class<Man> clazz, int a) {
         try {
             Man man = clazz.newInstance();
-            Method method = clazz.getMethod("fun", int.class);
+            Method method = clazz.getMethod("fun", Integer.TYPE);
             method.invoke(man, a);
         } catch (Exception e) {
             e.printStackTrace();
@@ -250,6 +251,6 @@ public class ReflectionClient {
 
 
     private static  void println(String msg){
-        System.out.println(msg);
+        Out.println(msg);
     }
 }
