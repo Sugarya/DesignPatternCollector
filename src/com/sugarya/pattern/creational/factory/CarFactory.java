@@ -1,4 +1,4 @@
-package com.sugarya.factory;
+package com.sugarya.pattern.creational.factory;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

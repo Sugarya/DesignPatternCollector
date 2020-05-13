@@ -1,4 +1,4 @@
-package com.sugarya.factory;
+package com.sugarya.pattern.creational.factory;
 
 public class Q3CarFactory extends AbstractCarFactory {
 

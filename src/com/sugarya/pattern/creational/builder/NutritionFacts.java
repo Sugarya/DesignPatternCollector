@@ -1,4 +1,4 @@
-package com.sugarya.builder;
+package com.sugarya.pattern.creational.builder;
 
 /**
  * 营养因素

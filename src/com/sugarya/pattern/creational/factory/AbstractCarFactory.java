@@ -1,4 +1,4 @@
-package com.sugarya.factory;
+package com.sugarya.pattern.creational.factory;
 
 public abstract class AbstractCarFactory {
 
