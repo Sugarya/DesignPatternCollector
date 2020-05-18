@@ -20,28 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2716e4dc-9591-4ac6-a8c1-e10c17fd01de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/client/creational/BuilderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/client/creational/FactoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/builder/NutritionFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/AbstractCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/AbstractCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/Q3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/Q3CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/Q5Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/creational/factory/Q5CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/client/behavioral/strategy/StrategyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/client/structural/decorator/DecoratorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/behavior/ChipperQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/behavior/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/behavior/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sugarya/pattern/behavioral/strategy/behavior/MuteQuack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sugarya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sugarya/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/builder/NutritionFacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/AbstractCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/AbstractCarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/Q3Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/Q3CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/Q5Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sugarya/factory/Q5CarFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -278,8 +269,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1589805396380">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/-154.-1057.1920.1057@0.23.1680.1027" timestamp="1589805396380" />
     <state x="454" y="208" width="910" height="657" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1589350048894">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -300,10 +296,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.1027/-154.-1057.1920.1057@0.23.1680.1027" timestamp="1589351575340" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1589351050952">
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1589355084681">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-154.-1057.1920.1057@0.23.1680.1027" timestamp="1589351050952" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-154.-1057.1920.1057@0.23.1680.1027" timestamp="1589355084681" />
   </component>
   <component name="masterDetails">
     <states>
